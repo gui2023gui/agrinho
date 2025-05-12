@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Conectando Campo e Cidade</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Projeto Agrinho: Conectando Campo e Cidade</h1>
+  </header>
+
+  <main>
+    <div class="card">
+      <p>Você sabia que o alimento que chega à sua mesa começa com o trabalho de agricultores no campo?</p>
+      <button onclick="mostrarConexao()">Clique para descobrir a conexão!</button>
+      <p id="mensagem"></p>
+    </div>
+
+    <div class="card">
+      <h2>Curiosidade do Dia 🌽</h2>
+      <p id="curiosidade">Clique no botão abaixo para ver uma curiosidade.</p>
+      <button onclick="mostrarCuriosidade()">Mostrar Curiosidade</button>
+    </div>
+
+    <div class="card">
+      <h2>O Apoio da Cidade ao Agricultor 🏙️➡️🚜</h2>
+      <p>O agricultor também se beneficia da cidade! Veja como:</p>
+      <ul id="apoio-lista"></ul>
+      <button onclick="mostrarApoio()">Mostrar Apoio da Cidade</button>
+    </div>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
